@@ -3,38 +3,38 @@
     <header>
       <h1>Productos en Venta</h1>
       <div class="search-bar">
-        <input type="text" placeholder="Buscar libros..." />
+        <input type="text" placeholder="" />
         <button>Buscar</button>
       </div>
     </header>
     <main class="product-container">
-      <div class="product-card">
+      <router-link to="/deathnote" class="product-card">
         <img
-          img="mathbook.JPG"
-          alt="Libro de Matemáticas"
+          src="src/img/deathnote.jpg"
+          alt="Death Note"
           class="product-image"
         />
-        <h2 class="product-name">Libro de Matemáticas</h2>
-        <p class="product-price">$20.00</p>
-      </div>
-      <div class="product-card">
+        <h2 class="product-name">Death Note</h2>
+        <p class="product-price">S/ 25.00</p>
+      </router-link>
+      <router-link to="/dragonball" class="product-card">
         <img
-          img="@/img/sciencebook.JPG"
-          alt="Libro de Ciencias"
+          src="src/img/dragonball.JPG"
+          alt="Dragon Ball Super"
           class="product-image"
         />
-        <h2 class="product-name">Libro de Ciencias</h2>
-        <p class="product-price">$25.00</p>
-      </div>
-      <div class="product-card">
+        <h2 class="product-name">Dragon Ball Super</h2>
+        <p class="product-price">S/ 25.00</p>
+      </router-link>
+      <router-link to="/chainsawman" class="product-card">
         <img
-          img="historybook.JPG"
-          alt="Libro de Historia"
+          src="src/img/chainsawman.JPG"
+          alt="Chainsaw Man"
           class="product-image"
         />
-        <h2 class="product-name">Libro de Historia</h2>
-        <p class="product-price">$15.00</p>
-      </div>
+        <h2 class="product-name">Chainsaw Man</h2>
+        <p class="product-price">S/ 25.00</p>
+      </router-link>
     </main>
   </div>
 </template>
@@ -50,11 +50,11 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f5f5f5;
+  background: url("src/img/tiendafondo.jpg") !important;
 }
 
 header {
-  background-color: #4caf50;
+  background-color: #0e0f0ef6;
   color: white;
   padding: 1rem 0;
   text-align: center;
@@ -76,7 +76,7 @@ header {
 
 .search-bar button {
   padding: 0.2rem 1rem;
-  background-color: #4caf50;
+  background-color: #dfdfdf9c;
   color: white;
   border: none;
   border-radius: 4px;

@@ -68,7 +68,7 @@ body {
   text-align: center;
   font-family: sans-serif;
   justify-content: center;
-  background: url("src/img/fondoesan.jpg");
+  background: url("src/img/tiendafondo.jpg");
   background-size: cover;
   background-position: center;
 }
